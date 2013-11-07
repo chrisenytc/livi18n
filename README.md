@@ -301,6 +301,8 @@ var demoCtrl = function($scope, $livi18n) {
 #### Example App
 See example application in [example](https://github.com/chrisenytc/livi18n/tree/master/example)
 
+See demo in [livi18n.herokuapp.com](http://livi18n.herokuapp.com/)
+
 ## JS Version
 
 See documentation [Livi18n.js](https://github.com/chrisenytc/livi18n.js)
