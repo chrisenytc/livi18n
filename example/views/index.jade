@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  a(href='/?lang=en') Use English Language
+  br
+  a(href='/?lang=sv') Use Swedish Language
+  br
+  p <strong>Gerated on BackEnd</strong>
+  h1= title
+  p #{title}
+  p= t({key: 'messages.welcome', options: {name: 'Princess', nick: 'Bella'}})
+  p= p({key: 'messages.test2', value: 5, options: {name: 'Princess', nick: 'Bella'}})
+  p <strong>Gerated on FrontEnd with AngularJS</strong>
+  .angularDemo(ng-controller='indexCtrl')
+    div(ng-bind='livi18ndemo')
+    br
+  p <strong>Gerated on FrontEnd with jQuery</strong>
+  #test(data-livi18n='messages.test2' data-options='{"name": "Princess", "nick": "Bella"}' data-value='10' data-default='Tested') Test with
+  ul#multilangs
+    li(data-livi18n='messages.welcome' data-options='{"name": "Princess", "nick": "Bella"}' data-default='Tested')
+    li(data-livi18n='messages.test' data-options='{"name": "Princess", "nick": "Bella"}' data-default='Tested')
+    li(data-livi18n='messages.test' data-options='{"name": "Princess", "nick": "Bella"}' data-default='Tested')

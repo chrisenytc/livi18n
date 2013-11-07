@@ -1,0 +1,5 @@
+{
+    "welcome": "Välkommen till Livi18n",
+    "test": "Testa livi18n med :name :nick!",
+    "test2": ":name har bok :&: av The Vampire Diaries||:name har :&: böcker av The Vampire Diaries."
+}

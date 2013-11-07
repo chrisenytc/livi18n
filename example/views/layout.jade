@@ -1,0 +1,19 @@
+doctype 5
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    block content
+
+script(src='/javascripts/jquery.min.js')
+script(src='/javascripts/angular.min.js')
+script(src='/livi18n/livi18n.js')
+if(socketEnabled())
+    script(src='/socket.io/socket.io.js')
+    script(src='/livi18n/ngSocket.js')
+script(src='/livi18n/ngLivi18n.js')
+script(src='/javascripts/livi18n_init.js')
+script(src='/javascripts/app.js')
+script(src='/javascripts/controllers.js')
+script(src='/javascripts/livi18n_test.js')
