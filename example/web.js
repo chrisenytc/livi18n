@@ -34,7 +34,7 @@ app.use(i18n.init(app, {
   languages: ['en', 'sv'],
   path: __dirname + '/lang',
   cookie: false,
-  socket: false,
+  socket: true,
   serveClient: true
 }));
 //app.use(i18n.setLanguage('en'));
@@ -52,4 +52,4 @@ var server = app.listen(app.get('port'));
 console.log('Express server listening on port ' + app.get('port'));
 
 //Require Socket Manager
-//i18n.socketManager(server);
+i18n.socketManager(server);
