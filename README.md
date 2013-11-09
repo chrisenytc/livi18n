@@ -340,6 +340,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 ## Release History
 
+ * 2013-11-9    v0.1.1   Fixed error in lib/client/ngSocket.js and update example
  * 2013-11-6    v0.1.0   Initial release.
 
 ---
