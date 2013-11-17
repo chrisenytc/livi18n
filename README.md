@@ -11,7 +11,7 @@ Install from package.json
 
 ```json
 "dependencies": {
-  "livi18n": "~0.1.0"
+  "livi18n": "~0.2.0"
 }
 ```
 Run this command to install
@@ -340,6 +340,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 ## Release History
 
+ * 2013-11-17    v0.2.0    Adding support for new package livi18n-parser
  * 2013-11-9    v0.1.1   Fixed error in lib/client/ngSocket.js and update example
  * 2013-11-6    v0.1.0   Initial release.
 

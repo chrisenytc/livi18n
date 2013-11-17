@@ -1,6 +1,6 @@
 'use strict';
 
-var parser = require('../lib/parser.js');
+var parser = require('livi18n-parser');
 
 /*
   ======== A Handy Little Nodeunit Reference ========

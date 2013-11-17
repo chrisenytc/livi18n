@@ -1,7 +1,7 @@
 {
   "name": "livi18n",
   "description": "Internationalisation (i18n) for backend and frontend node.js",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "homepage": "https://github.com/chrisenytc/livi18n",
   "author": {
     "name": "Christopher EnyTC",
@@ -29,7 +29,8 @@
     "test": "grunt nodeunit"
   },
   "dependencies": {
-    "socket.io": "~0.9.16"
+    "socket.io": "~0.9.16",
+    "livi18n-parser": "~0.1.0"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.4",

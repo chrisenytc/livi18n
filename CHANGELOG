@@ -1,8 +1,11 @@
+v0.2.0:
+  date: 2013-11-17
+  changes:
+    - Adding support for new package livi18n-parser
 v0.1.1:
   date: 2013-11-9
   changes:
     - Fixed error in lib/client/ngSocket.js and update example
-
 v0.1.0:
   date: 2013-11-6
   changes:
