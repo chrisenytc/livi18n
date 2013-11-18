@@ -51,5 +51,7 @@ app.get('/users', user.list);
 var server = app.listen(app.get('port'));
 console.log('Express server listening on port ' + app.get('port'));
 
+//var io = require('socket.io').listen(server);
+
 //Require Socket Manager
-//i18n.socketManager(server);
+//i18n.socketManager(io);

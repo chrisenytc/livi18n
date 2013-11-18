@@ -1,3 +1,7 @@
+v0.3.0:
+  date: 2013-11-18
+  changes:
+    - Adding support for unique instance of socket.io
 v0.2.0:
   date: 2013-11-17
   changes:

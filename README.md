@@ -11,7 +11,7 @@ Install from package.json
 
 ```json
 "dependencies": {
-  "livi18n": "~0.2.0"
+  "livi18n": "~0.3.0"
 }
 ```
 Run this command to install
@@ -189,18 +189,18 @@ req.setLanguage('en');
 
 ---
 
-#### .socketManager(server)
+#### .socketManager(io)
 
-**Parameter**: `server`
-**Type**: `express server`
-**Example**: `var server = app.listen(app.get('port'));`
+**Parameter**: `io`
+**Type**: `socket.io instance`
+**Example**: `var io = require('socket.io').listen(server);`
 
 The 'socketManager' method is responsible for managing all requests and response between client and server.
 
 How to use this method
 
 ```javascript
-livi18n.socketManager(server);
+livi18n.socketManager(io);
 ```
 
 ---
@@ -254,11 +254,15 @@ var server = app.listen(app.get('port'));
 
 console.log('Express server listening on port ' + app.get('port'));
 
+//Create Socket instance
+
+var io = require('socket.io').listen(server);
+
 // Require Socket Manager
 
-// This method receive a `server` instance and manage socket requests and responses.
+// This method receive a `io` instance and manage socket requests and responses.
 
-livi18n.socketManager(server);
+livi18n.socketManager(io);
 ```
 
 #### Jade Example
@@ -340,6 +344,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 ## Release History
 
+ * 2013-11-18    v0.3.0    Adding support for unique instance of socket.io
  * 2013-11-17    v0.2.0    Adding support for new package livi18n-parser
  * 2013-11-9    v0.1.1   Fixed error in lib/client/ngSocket.js and update example
  * 2013-11-6    v0.1.0   Initial release.
