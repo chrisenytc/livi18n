@@ -1,4 +1,4 @@
-# Livi18n [![Build Status](https://travis-ci.org/chrisenytc/livi18n.png?branch=master)](https://travis-ci.org/chrisenytc/livi18n) [![Dependency Status](https://gemnasium.com/chrisenytc/livi18n.png)](https://gemnasium.com/chrisenytc/livi18n) [![NPM version](https://badge.fury.io/js/livi18n.png)](http://badge.fury.io/js/livi18n) [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/chrisenytc/livi18n/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+# Livi18n [![Build Status](https://travis-ci.org/chrisenytc/livi18n.png?branch=master)](https://travis-ci.org/chrisenytc/livi18n) [![Dependency Status](https://gemnasium.com/chrisenytc/livi18n.png)](https://gemnasium.com/chrisenytc/livi18n) [![NPM version](https://badge-me.herokuapp.com/api/npm/livi18n.png)](http://badges.enytc.com/for/npm/livi18n) [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/chrisenytc/livi18n/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 > Internationalisation (i18n) for backend and frontend node.js
 
 ## Instalation
